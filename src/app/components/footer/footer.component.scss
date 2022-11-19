@@ -1,0 +1,32 @@
+.footer {
+    margin-top: 200px;
+    
+    .bg-taro {
+        display: flex;
+        position: absolute;
+        width: 200px;
+        height: 30px;
+        background: #F2C469;
+        border-radius: 24.5px;
+        align-items: center;
+        position: relative;
+        margin: auto;
+        
+        h3 {
+            font-weight: bold;
+            font-size: 15px;
+            color: #050505;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+        }
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 100;
+        margin: 20px;
+        color: #F2C469;
+        text-align: center;
+    }
+}

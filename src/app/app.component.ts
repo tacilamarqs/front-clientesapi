@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Cliente } from './models/cliente';
+import { Empresa } from './models/empresa';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clientesapi';
+  clientes: Cliente[] = [];
+  empresas: Empresa[] = [];
 }

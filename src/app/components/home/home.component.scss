@@ -1,0 +1,33 @@
+.home {
+
+    height: 100%;
+    width: 100%;
+    margin-top: 160px;
+
+    h1, h2, h3 {
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 80px;
+
+        background: linear-gradient(94.78deg, #FFFFFF 1.7%, #F2C469 100.26%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+}

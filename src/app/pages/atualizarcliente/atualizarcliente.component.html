@@ -1,0 +1,48 @@
+<div class="container">
+    <h1>Atualizar Cliente</h1>
+    <form [formGroup]="clienteForm" (ngSubmit)="salvar()">
+
+      <div class="campo">
+        <label for="id">Id do cliente</label>
+        <input type="number" id="id" formControlName="id">
+      </div>
+
+      <div class="campo">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" formControlName="nome">
+        <!-- <p *ngIf="!titulo?.valid && (titulo?.dirty || titulo?.touched)" class="error">
+          Campo obrigatório
+        </p> -->
+      </div>
+
+      <div class="campo">
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" formControlName="telefone">
+      </div>
+      
+      <div class="campo">
+        <label for="datanascimento">Data de nascimento</label>
+        <input type="text" id="datanascimento" formControlName="datanascimento">
+      </div>
+      
+      <div class="campo">
+        <label for="dataultimacompra">Data da última compra</label>
+        <input type="text" id="dataultimacompra" formControlName="dataultimacompra">
+      </div>
+      
+      <div class="campo">
+        <label for="valorultimacompra">Valor da última compra</label>
+        <input type="number" id="valorultimacompra" formControlName="valorultimacompra">
+      </div>
+
+      <div class="campo">
+        <label for="valortotalcompras">Valor total das compras</label>
+        <input type="number" id="valortotalcompras" formControlName="valortotalcompras">
+      </div>
+
+      <div class="acoes">
+        <button routerLink="" class="btn-outlined" type="button">Voltar</button>
+        <button type="submit" class="btn-primary">Salvar</button>
+      </div>
+    </form>
+  </div>

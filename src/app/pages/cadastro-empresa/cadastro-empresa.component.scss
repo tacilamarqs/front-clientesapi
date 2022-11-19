@@ -1,0 +1,64 @@
+.container {
+    padding: 15px 30px;
+    background: #fff;
+
+    h1 {
+      margin-bottom: 30px;
+    }
+    
+    .cadastro-empresa {
+      margin-bottom: 30px;
+
+      .link-empresa {
+        color: #F2C469;
+      }
+
+      .link-empresa:hover {
+        color: #9c782e;
+      }
+    }
+
+    .campo {
+      margin-bottom: 30px;
+  
+      label, input {
+        display: block;
+      }
+  
+      label {
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+  
+      input {
+        width: 100%;
+        font-size: 32px;
+        background: rgb(226, 226, 226);
+        border: none;
+      }
+  
+    }
+  
+    .acoes {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+
+      button {
+        text-transform: uppercase;
+        padding: 10px 15px;
+        background: #F2C469;
+        color: #010101;
+        border: none;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+    }
+  
+  }

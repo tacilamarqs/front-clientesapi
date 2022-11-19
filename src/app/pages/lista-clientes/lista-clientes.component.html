@@ -1,0 +1,31 @@
+<div class="lista">
+  <table>
+
+    <thead>
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Telefone</th>
+      <th>Data de nascimento</th>
+      <th>Data da última compra</th>
+      <th>Valor da última compra</th>
+      <th>Valor total das compras</th>
+      <th>Id da empresa</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cliente in clientes">
+        <td> {{ cliente.id }}</td>
+        <td> {{ cliente.nome }}</td>
+        <td> {{ cliente.telefone }}</td>
+        <td> {{ cliente.datanascimento }}</td>
+        <td> {{ cliente.dataultimacompra }}</td>
+        <td> {{ cliente.valorultimacompra }}</td>
+        <td> {{ cliente.valortotalcompras }}</td>
+        <td> {{ cliente.idEmpresa }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <!-- <app-cliente  *ngFor="let cliente of clientes">
+  </app-cliente> -->
+</div>
+

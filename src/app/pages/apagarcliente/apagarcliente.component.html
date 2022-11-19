@@ -1,0 +1,23 @@
+<div class="container">
+    <h1>Apagar cliente</h1>
+
+    <form [formGroup]="clienteForm" (ngSubmit)="salvar()">
+      <div class="campo">
+        <label for="nome">Nome da empresa</label>
+        <input type="text" id="nome" formControlName="nome">
+        <!-- <p *ngIf="!titulo?.valid && (titulo?.dirty || titulo?.touched)" class="error">
+          Campo obrigatório
+        </p> -->
+      </div>
+
+      <div class="campo">
+        <label for="filial">Nome da filial</label>
+        <input type="text" id="filial" formControlName="filial">
+      </div>
+      
+      <div class="acoes">
+        <button routerLink="" class="btn-outlined" type="button">Voltar</button>
+        <button type="submit" class="btn-primary">Salvar</button>
+      </div>
+    </form>
+  </div>
