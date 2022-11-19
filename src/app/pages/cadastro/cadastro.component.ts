@@ -21,8 +21,8 @@ export class CadastroComponent implements OnInit {
     this.clienteForm = this.fb.group({
       nome: [''],
       telefone: [''],
-      datanascimento: [''],
-      dataultimacompra: [''],
+      datanascimento: ['', [Validators.required, Validators.pattern (/^\d{1,2}\.\d{1,2}\.\d{4}$/)]],
+      dataultimacompra: ['', [Validators.required, Validators.pattern (/^\d{1,2}\.\d{1,2}\.\d{4}$/)]],
       valorultimacompra: [''],
       valortotalcompras: [''],
       empresaId: ['']
